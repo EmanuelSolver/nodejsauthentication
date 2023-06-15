@@ -1,0 +1,23 @@
+{
+  "name": "nodejsauthentication",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.16.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node --watch  server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mssql": "^9.1.1",
+    "nodemon": "^2.0.22"
+  }
+}
